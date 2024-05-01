@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "backtesting-test"
+version = "0.1.0"
+description = ""
+authors = ["alpal <spring_special_0f@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+backtesting = "^0.3.3"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
